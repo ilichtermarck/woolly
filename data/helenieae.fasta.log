@@ -1,0 +1,483 @@
+IQ-TREE multicore version 2.3.3 COVID-edition for Linux x86 64-bit built Apr 25 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    rosalindf (AVX2, FMA3, 2011 GB RAM)
+Command: iqtree2 -s data/helenieae.fasta -B 1000
+Seed:    224341 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 21 15:10:10 2024
+Kernel:  AVX+FMA - 1 threads (256 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 256 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file data/helenieae.fasta ... Fasta format detected
+Reading fasta file: done in 0.00608473 secs using 92.13% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 160 sequences with 944 columns, 647 distinct patterns
+456 parsimony-informative, 84 singleton sites, 404 constant sites
+                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000310813 secs using 99.42% CPU
+   1  Manley_type_ITS_4_rc     31.25%    passed     39.69%
+   2  ATHROIS_BW116            35.06%    passed     25.27%
+   3  Bleph_BW194_c32re        33.90%    passed     79.66%
+   4  Bleph_BW194_c29re        33.90%    passed     81.65%
+   5  Heptanthus_BW472         31.67%    passed     79.47%
+   6  MARSHAL_OB_BW55          32.31%    failed      3.36%
+   7  MARSHAL_CAESP_BW267      32.10%    failed      4.93%
+   8  PSATHANNUA930            31.78%    passed     41.82%
+   9  PSATHRAMOSIS_1062        31.67%    passed     41.22%
+  10  TRICHOPTIL785            32.31%    passed     37.92%
+  11  PELUCHA_BW218C4          31.99%    passed     58.55%
+  12  PELUCHA_BW218C3          31.99%    passed     49.35%
+  13  HELEN_BIG_681            32.10%    passed     25.20%
+  14  BALDUINA_BW70            31.78%    passed     20.78%
+  15  GAIL_PUL_BW164           31.89%    passed     72.45%
+  16  PLATEILEMA_BW182         33.05%    passed     40.23%
+  17  BAIL_MULTIBW10           32.31%    passed     84.11%
+  18  BAIL_PLENIR_835          32.31%    passed     81.95%
+  19  BAIL_PAUCI_BW15          32.10%    passed     79.74%
+  20  PSILOSTR_BW142           31.14%    passed     71.02%
+  21  PSILOSTR_968             31.14%    passed     60.90%
+  22  PLUMMER_FLO963           32.10%    passed     47.47%
+  23  DUGALDIA_HO954           32.10%    passed     58.66%
+  24  HYMENOX_LEM931           32.10%    passed     58.02%
+  25  AMBLYOLE_BW151           31.67%    passed     90.35%
+  26  TETRANEU_AC937           31.78%    passed     98.68%
+  27  AMAURIA_BW32             32.20%    passed     40.45%
+  28  PERICOME_CAUD_958        31.99%    passed     62.75%
+  29  PERITYL_962              33.26%    passed     74.08%
+  30  PERITYL_EM_917           33.69%    passed     92.63%
+  31  PERITYL_INCANA_BW310     33.47%    passed     87.17%
+  32  PERITYL_MEG957           33.37%    passed     84.52%
+  33  EUTETRAS_977_2           32.31%    passed     27.12%
+  34  CORRELLIA_BW166          33.37%    passed     89.83%
+  35  GALEANA_980_2            31.78%    passed     57.06%
+  36  VILLANOVA981             31.67%    passed     97.22%
+  37  LOXOTHYSANUS_JP          31.78%    passed     91.93%
+  38  HYMENOPAP876             31.57%    passed     97.05%
+  39  Hymenop_177              39.83%    passed     79.42%
+  40  THYMOPSIS_BW96           36.65%    passed     94.83%
+  41  PSATHYROTOPSIS_BW98      31.78%    passed     58.86%
+  42  PEUCEPHYLL916            31.89%    passed     68.06%
+  43  PALAF_ARID784            31.78%    passed     14.30%
+  44  PALAFOXIA_969            31.04%    failed      3.32%
+  45  FLORES_PL_BW92           31.36%    passed     27.19%
+  46  FLORESTINA_970_2         31.57%    passed     59.32%
+  47  SCHKUH_AN_BW97           32.20%    passed     78.75%
+  48  SCHKUHRIA_974            31.78%    passed     92.00%
+  49  HYMENOTH_BW54            31.25%    passed     82.93%
+  50  HYMENOT_WRIGHT964        31.36%    passed     25.46%
+  51  BAH_DISSBW282            31.36%    passed     19.06%
+  52  PLATYSCHKU938_2c3        31.46%    passed     67.99%
+  53  PLATYSCHKU938_2c2        31.57%    passed     60.40%
+  54  BAH_ABSIN967             31.99%    passed     67.32%
+  55  BAH_OPPOS_BW323          31.57%    passed     65.05%
+  56  ACHYROPA_BW103           31.57%    passed     72.31%
+  57  CHAMAECH942              31.78%    passed     75.56%
+  58  BARTLETTBW121c2          32.52%    passed     94.76%
+  59  BARTLETTBW121c4          32.52%    passed     94.76%
+  60  HYPERICO_BW117           32.20%    failed      2.69%
+  61  HYPERICO_BW117c3         31.57%    passed     58.83%
+  62  CHAETYMENIA_978_2        32.31%    passed     39.61%
+  63  ESPEJOA_BW105            32.10%    passed     87.09%
+  64  DIMER925                 31.99%    passed     27.21%
+  65  OROCHAEN934              31.57%    passed     14.12%
+  66  CHMACRANBW124            31.78%    passed     92.49%
+  67  CHSANTALIN953            31.89%    passed     93.74%
+  68  ERIOLANCRBW305           32.20%    passed     85.14%
+  69  ERIO_STACH895            32.10%    passed     80.31%
+  70  ERIO_LAN_MONOENSE_1120   32.10%    passed     90.90%
+  71  PSEUDBAHI945             31.78%    passed     64.29%
+  72  PSEUDPEIR913             32.10%    passed     60.94%
+  73  SYNTR_FRE_915            31.78%    passed     90.41%
+  74  ERCONGD_BW80             32.42%    passed     91.15%
+  75  LASTH_CAL_Chan           33.58%    passed     82.38%
+  76  LASTH_BUR_Chan           32.31%    passed     36.13%
+  77  BAERIOPS_BW113           32.31%    passed     80.28%
+  78  BAERIOPS_BW309           32.31%    passed     83.04%
+  79  AMBLYOPAPbw39            32.31%    passed     88.84%
+  80  MONOLOP_GRA944           31.25%    passed     32.61%
+  81  MONOL_MAJ_1011           31.36%    passed     98.53%
+  82  LEMBERTIA_814            32.10%    passed     81.91%
+  83  ERNEVINII_BW231          31.99%    passed     84.92%
+  84  ERNEVINII_BW1            31.99%    passed     84.92%
+  85  3HUAL                    31.78%    passed     88.07%
+  86  HULS_CAL_BW56            31.99%    passed     66.27%
+  87  HULS_VES_BW31            31.78%    passed     50.21%
+  88  EATONELLA_BW52           31.14%    passed     99.08%
+  89  VENEGASIA_893            31.89%    passed     69.51%
+  90  1ARMO                    32.31%    passed     86.08%
+  91  ARNICA_955               31.89%    passed     95.28%
+  92  AR_CERN_BW157_2c1        31.78%    passed     85.84%
+  93  AR_CERN_BW157_2c2        31.78%    passed     79.09%
+  94  AR_CERN_BW157_2c3        31.99%    passed     75.85%
+  95  AR_UNALASCH_1036         32.31%    passed     87.37%
+  96  WHITNEYA920              31.78%    passed     83.65%
+  97  MALLOTOPUS_BW195         31.67%    passed     75.15%
+  98  625RAAR                  32.94%    passed     97.93%
+  99  4ADENOTHAM_VAL           32.20%    passed     75.90%
+ 100  LAGRAMO_536              32.20%    passed     98.85%
+ 101  LAGMINOR_600             32.20%    passed     76.61%
+ 102  HOFI_BW24                31.89%    passed     47.34%
+ 103  794LAHETEROTR            31.99%    passed     13.73%
+ 104  571LAMUNZII              31.89%    passed      6.78%
+ 105  BW223c4LAGAIL            32.20%    passed     34.92%
+ 106  882BLSC                  32.10%    passed     43.09%
+ 107  SJB-MAMI                 32.63%    passed     97.00%
+ 108  8MADIA_BOLANDE           32.20%    passed     99.89%
+ 109  11ACHYRACHA_MO           31.67%    passed     97.34%
+ 110  6RASCAB                  31.99%    passed     90.96%
+ 111  7RAMU618                 31.89%    passed     96.22%
+ 112  MASASandhillRd           32.73%    passed     91.89%
+ 113  657ARGYROX_SAS           33.37%    passed     61.60%
+ 114  24WIGY                   32.42%    passed     83.54%
+ 115  43DUPLANTP               33.47%    passed     65.95%
+ 116  BW232HEFAS               31.99%    passed     99.05%
+ 117  499HOVIRGATA             32.10%    passed     77.24%
+ 118  17HEPE                   32.42%    passed     76.11%
+ 119  36CATR                   32.20%    passed     94.78%
+ 120  20OSTE                   32.52%    passed     75.72%
+ 121  18HECA                   32.52%    passed     59.52%
+ 122  BLPL_BW209               32.10%    passed     54.47%
+ 123  HOFMEIST_AR_BW192        31.78%    passed     51.28%
+ 124  HOFMEIST_SC_BW193        31.67%    passed     36.70%
+ 125  AGERATIN_BW106           32.84%    passed     16.72%
+ 126  AGER_ADE_BW108           32.94%    passed     22.14%
+ 127  BRICK_CAL_BW153          31.57%    passed     89.02%
+ 128  PIQUERIA_979             32.10%    failed      0.68%
+ 129  STEVIA_973               30.93%    passed     98.71%
+ 130  Wyethia_amplex           40.78%    passed     71.55%
+ 131  Ambrosia_119             38.98%    passed     98.72%
+ 132  Helianthus_simulans      40.04%    passed     63.79%
+ 133  Chromolep_976            32.31%    passed      7.89%
+ 134  TRICHOCORYNE_972         31.67%    passed     89.06%
+ 135  Rudbeckia_alpi           40.25%    passed     62.21%
+ 136  Coreopsis_180            40.36%    passed     37.19%
+ 137  Bidens_alba_web          33.05%    passed     11.85%
+ 138  Cosmos_fromweb           32.84%    passed      6.83%
+ 139  Melampodi_161            40.68%    passed     65.80%
+ 140  Smallanthu_158           40.78%    passed     92.87%
+ 141  Galins_146-2             39.83%    passed     32.95%
+ 142  FLAV_TRI_BW149           31.89%    passed     17.43%
+ 143  SARTWELL_BW141           31.99%    passed     58.18%
+ 144  HAPLOEST_BW145           31.89%    passed     58.02%
+ 145  PSEUDOCLAP_966           32.31%    passed     67.19%
+ 146  CLAPPIA_SUA_BW213        31.78%    passed     39.71%
+ 147  JAMESIANTH_BW181         28.18%    passed     74.05%
+ 148  ARNICAST_GU_BW169        15.57%    passed     23.73%
+ 149  VARILLA_MEX_971          31.57%    passed     97.17%
+ 150  VARILLA_TEX_BW197        31.78%    passed     86.92%
+ 151  COULTERE_BW159           32.10%    passed     17.54%
+ 152  JAUMEA940                32.31%    failed      3.67%
+ 153  OXYPAPPUS_BW99           32.73%    passed     25.55%
+ 154  TAGETES_LUCID_975        31.78%    passed     68.42%
+ 155  NICOLLET_OCC_BW21        31.46%    passed     49.20%
+ 156  POROPHYL_BW152           32.52%    passed     28.64%
+ 157  PECTIS630                32.42%    passed     69.86%
+ 158  THYMOPHYLLA_BW212        32.94%    passed      7.97%
+ 159  ADENOPHYL_BW90           32.31%    passed     19.55%
+ 160  GUARDIOLA_BW334          32.20%    passed     96.66%
+****  TOTAL                    32.47%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: BARTLETTBW121c4 is identical to BARTLETTBW121c2 but kept for subsequent analysis
+NOTE: ERNEVINII_BW1 is identical to ERNEVINII_BW231 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.024 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -29735.943
+Optimal log-likelihood: -29734.950
+Rate parameters:  A-C: 0.66129  A-G: 2.09673  A-T: 1.42037  C-G: 0.32436  C-T: 3.85479  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.241  G: 0.260  T: 0.270
+Proportion of invariable sites: 0.226
+Gamma shape alpha: 1.199
+Parameters optimization took 1 rounds (0.181 sec)
+Time for fast ML tree search: 1.480 seconds
+
+NOTE: ModelFinder requires 36 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 944) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         32653.970    325 65957.939    66300.820    67534.230
+  2  GTR+F+I       30998.301    326 62648.601    62994.151    64229.742
+  3  GTR+F+G4      29825.163    326 60302.326    60647.876    61883.467
+  4  GTR+F+I+G4    29734.966    327 60123.931    60472.165    61709.922
+  5  GTR+F+R2      30297.961    327 61249.921    61598.155    62835.913
+  6  GTR+F+R3      29895.512    329 60449.025    60802.673    62044.716
+  7  GTR+F+R4      29726.833    331 60115.666    60474.791    61721.058
+  8  GTR+F+R5      29700.739    333 60067.478    60432.141    61682.570
+  9  GTR+F+R6      29687.883    335 60045.766    60416.029    61670.558
+ 10  GTR+F+R7      29679.836    337 60033.673    60409.600    61668.165
+ 11  GTR+F+R8      29669.605    339 60017.210    60398.866    61661.403
+ 12  GTR+F+R9      29669.443    341 60020.885    60408.334    61674.778
+ 14  GTR+F+I+R2    29909.956    328 60475.912    60826.846    62066.754
+ 15  GTR+F+I+R3    29770.513    330 60201.027    60557.405    61801.568
+ 16  GTR+F+I+R4    29688.246    332 60040.492    60402.377    61650.734
+ 17  GTR+F+I+R5    29675.162    334 60018.324    60385.779    61638.266
+ 18  GTR+F+I+R6    29672.124    336 60016.247    60389.335    61645.890
+ 39  SYM+I+R5      29693.579    331 60049.158    60408.282    61654.549
+ 40  SYM+I+R6      29691.331    333 60048.662    60413.324    61663.754
+ 61  TVM+F+I+R5    29766.692    333 60199.384    60564.046    61814.476
+ 62  TVM+F+I+R6    29764.389    335 60198.778    60569.041    61823.570
+ 83  TVMe+I+R5     29810.381    330 60280.762    60637.140    61881.303
+ 84  TVMe+I+R6     29808.481    332 60280.963    60642.848    61891.205
+105  TIM3+F+I+R5   29724.373    332 60112.746    60474.632    61722.988
+106  TIM3+F+I+R6   29721.668    334 60111.336    60478.790    61731.278
+127  TIM3e+I+R5    29723.000    329 60104.000    60457.648    61699.691
+128  TIM3e+I+R6    29720.738    331 60103.476    60462.600    61708.867
+149  TIM2+F+I+R5   29816.238    332 60296.475    60658.361    61906.717
+150  TIM2+F+I+R6   29811.513    334 60291.027    60658.482    61910.969
+171  TIM2e+I+R5    29870.323    329 60398.647    60752.295    61994.338
+172  TIM2e+I+R6    29866.810    331 60395.621    60754.745    62001.012
+193  TIM+F+I+R5    29861.115    332 60386.230    60748.115    61996.472
+194  TIM+F+I+R6    29857.275    334 60382.549    60750.004    62002.492
+215  TIMe+I+R5     29895.199    329 60448.398    60802.046    62044.090
+216  TIMe+I+R6     29891.702    331 60445.404    60804.528    62050.796
+237  TPM3u+F+I+R5  29811.939    331 60285.878    60645.002    61891.270
+238  TPM3u+F+I+R6  29810.288    333 60286.575    60651.238    61901.667
+259  TPM3+I+R5     29834.599    328 60325.199    60676.132    61916.040
+260  TPM3+I+R6     29832.998    330 60325.997    60682.375    61926.538
+281  TPM2u+F+I+R5  29911.749    331 60485.497    60844.621    62090.889
+282  TPM2u+F+I+R6  29909.938    333 60485.876    60850.538    62100.968
+303  TPM2+I+R5     29987.124    328 60630.248    60981.181    62221.089
+304  TPM2+I+R6     29985.445    330 60630.890    60987.269    62231.432
+325  K3Pu+F+I+R5   29951.339    331 60564.679    60923.803    62170.070
+326  K3Pu+F+I+R6   29949.988    333 60565.977    60930.639    62181.069
+347  K3P+I+R5      30005.490    328 60666.980    61017.914    62257.822
+348  K3P+I+R6      30004.209    330 60668.417    61024.796    62268.959
+369  TN+F+I+R5     29861.601    331 60385.203    60744.327    61990.595
+370  TN+F+I+R6     29857.670    333 60381.341    60746.003    61996.433
+391  TNe+I+R5      29896.175    328 60448.351    60799.284    62039.192
+392  TNe+I+R6      29892.688    330 60445.375    60801.754    62045.917
+413  HKY+F+I+R5    29951.982    330 60563.965    60920.343    62164.507
+414  HKY+F+I+R6    29950.632    332 60565.263    60927.149    62175.505
+435  K2P+I+R5      30006.596    327 60667.192    61015.426    62253.184
+436  K2P+I+R6      30005.313    329 60668.626    61022.274    62264.318
+457  F81+F+I+R5    31022.440    329 62702.881    63056.529    64298.572
+458  F81+F+I+R6    31021.004    331 62704.008    63063.132    64309.399
+479  JC+I+R5       31074.181    326 62800.362    63145.911    64381.503
+480  JC+I+R6       31072.753    328 62801.506    63152.439    64392.347
+Akaike Information Criterion:           GTR+F+I+R6
+Corrected Akaike Information Criterion: GTR+F+I+R5
+Bayesian Information Criterion:         GTR+F+I+R5
+Best-fit model: GTR+F+I+R5 chosen according to BIC
+
+All model information printed to data/helenieae.fasta.model.gz
+CPU time for ModelFinder: 255.552 seconds (0h:4m:15s)
+Wall-clock time for ModelFinder: 256.301 seconds (0h:4m:16s)
+Generating 1000 samples for ultrafast bootstrap (seed: 224341)...
+
+NOTE: 19 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -29675.162
+Optimal log-likelihood: -29675.061
+Rate parameters:  A-C: 0.68212  A-G: 2.10900  A-T: 1.44162  C-G: 0.32692  C-T: 3.96299  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.241  G: 0.260  T: 0.270
+Proportion of invariable sites: 0.216
+Site proportion and rates:  (0.151,0.142) (0.223,0.613) (0.174,1.340) (0.195,2.204) (0.042,4.286)
+Parameters optimization took 1 rounds (0.262 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.103895 secs using 99.97% CPU
+Computing ML distances took 0.104212 sec (of wall-clock time) 0.104179 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00134611 secs using 178.9% CPU
+Computing RapidNJ tree took 0.006155 sec (of wall-clock time) 0.011221 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -29738.383
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.427 second
+Computing log-likelihood of 98 initial trees ... 2.822 seconds
+Current best score: -29675.061
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -29670.831
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -29647.428
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -29629.507
+Iteration 10 / LogL: -29643.030 / Time: 0h:4m:31s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -29626.863
+Iteration 20 / LogL: -29641.122 / Time: 0h:4m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -29626.863 / CPU time: 23.959
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -29625.885
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -29622.165
+Iteration 30 / LogL: -29630.183 / Time: 0h:4m:49s (0h:1m:44s left)
+Iteration 40 / LogL: -29622.761 / Time: 0h:4m:56s (0h:1m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -29621.178
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -29620.772
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -29619.184
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -29617.431
+Iteration 50 / LogL: -29620.765 / Time: 0h:5m:5s (0h:1m:35s left)
+Log-likelihood cutoff on original alignment: -29682.697
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -29616.014
+Iteration 60 / LogL: -29623.481 / Time: 0h:5m:13s (0h:1m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -29615.869
+Iteration 70 / LogL: -29622.745 / Time: 0h:5m:20s (0h:1m:24s left)
+Iteration 80 / LogL: -29628.096 / Time: 0h:5m:27s (0h:1m:13s left)
+Iteration 90 / LogL: -29621.674 / Time: 0h:5m:35s (0h:1m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -29615.425
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -29615.327
+Iteration 100 / LogL: -29615.327 / Time: 0h:5m:42s (0h:1m:20s left)
+Log-likelihood cutoff on original alignment: -29660.440
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -29629.883 / Time: 0h:5m:50s (0h:1m:17s left)
+Iteration 120 / LogL: -29615.668 / Time: 0h:5m:57s (0h:1m:7s left)
+Iteration 130 / LogL: -29616.778 / Time: 0h:6m:4s (0h:0m:58s left)
+Iteration 140 / LogL: -29616.293 / Time: 0h:6m:11s (0h:0m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 145: -29615.202
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 149: -29614.948
+Iteration 150 / LogL: -29616.013 / Time: 0h:6m:19s (0h:1m:21s left)
+Log-likelihood cutoff on original alignment: -29660.440
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -29614.885
+UPDATE BEST LOG-LIKELIHOOD: -29614.875
+Iteration 160 / LogL: -29614.911 / Time: 0h:6m:26s (0h:1m:13s left)
+Iteration 170 / LogL: -29621.497 / Time: 0h:6m:34s (0h:1m:4s left)
+Iteration 180 / LogL: -29623.931 / Time: 0h:6m:41s (0h:0m:55s left)
+Iteration 190 / LogL: -29628.697 / Time: 0h:6m:48s (0h:0m:47s left)
+Iteration 200 / LogL: -29620.829 / Time: 0h:6m:55s (0h:0m:39s left)
+Log-likelihood cutoff on original alignment: -29660.462
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -29616.472 / Time: 0h:7m:3s (0h:1m:12s left)
+Iteration 220 / LogL: -29615.143 / Time: 0h:7m:10s (0h:1m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 223: -29614.791
+Iteration 230 / LogL: -29635.194 / Time: 0h:7m:18s (0h:1m:13s left)
+Iteration 240 / LogL: -29616.471 / Time: 0h:7m:25s (0h:1m:5s left)
+Iteration 250 / LogL: -29615.747 / Time: 0h:7m:32s (0h:0m:57s left)
+Log-likelihood cutoff on original alignment: -29660.440
+Iteration 260 / LogL: -29617.014 / Time: 0h:7m:40s (0h:0m:49s left)
+UPDATE BEST LOG-LIKELIHOOD: -29614.784
+UPDATE BEST LOG-LIKELIHOOD: -29614.782
+Iteration 270 / LogL: -29621.023 / Time: 0h:7m:47s (0h:0m:41s left)
+Iteration 280 / LogL: -29618.901 / Time: 0h:7m:55s (0h:0m:33s left)
+Iteration 290 / LogL: -29617.569 / Time: 0h:8m:2s (0h:0m:25s left)
+Iteration 300 / LogL: -29629.626 / Time: 0h:8m:9s (0h:0m:17s left)
+Log-likelihood cutoff on original alignment: -29660.440
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 310 / LogL: -29616.961 / Time: 0h:8m:17s (0h:1m:10s left)
+Iteration 320 / LogL: -29631.142 / Time: 0h:8m:25s (0h:1m:2s left)
+TREE SEARCH COMPLETED AFTER 324 ITERATIONS / Time: 0h:8m:28s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -29614.782
+2. Current log-likelihood: -29614.751
+3. Current log-likelihood: -29614.713
+4. Current log-likelihood: -29614.672
+5. Current log-likelihood: -29614.635
+6. Current log-likelihood: -29614.600
+7. Current log-likelihood: -29614.565
+8. Current log-likelihood: -29614.530
+9. Current log-likelihood: -29614.497
+10. Current log-likelihood: -29614.463
+11. Current log-likelihood: -29614.430
+12. Current log-likelihood: -29614.398
+13. Current log-likelihood: -29614.367
+14. Current log-likelihood: -29614.336
+15. Current log-likelihood: -29614.307
+16. Current log-likelihood: -29614.277
+17. Current log-likelihood: -29614.249
+18. Current log-likelihood: -29614.221
+19. Current log-likelihood: -29614.193
+20. Current log-likelihood: -29614.166
+21. Current log-likelihood: -29614.150
+22. Current log-likelihood: -29614.135
+23. Current log-likelihood: -29614.118
+24. Current log-likelihood: -29614.091
+25. Current log-likelihood: -29614.065
+26. Current log-likelihood: -29614.051
+27. Current log-likelihood: -29614.036
+28. Current log-likelihood: -29614.022
+29. Current log-likelihood: -29614.009
+30. Current log-likelihood: -29613.995
+31. Current log-likelihood: -29613.982
+32. Current log-likelihood: -29613.969
+33. Current log-likelihood: -29613.956
+34. Current log-likelihood: -29613.943
+35. Current log-likelihood: -29613.931
+36. Current log-likelihood: -29613.918
+37. Current log-likelihood: -29613.905
+38. Current log-likelihood: -29613.893
+39. Current log-likelihood: -29613.881
+40. Current log-likelihood: -29613.869
+41. Current log-likelihood: -29613.857
+42. Current log-likelihood: -29613.845
+43. Current log-likelihood: -29613.834
+44. Current log-likelihood: -29613.822
+45. Current log-likelihood: -29613.811
+46. Current log-likelihood: -29613.799
+47. Current log-likelihood: -29613.788
+48. Current log-likelihood: -29613.777
+49. Current log-likelihood: -29613.766
+50. Current log-likelihood: -29613.755
+51. Current log-likelihood: -29613.744
+52. Current log-likelihood: -29613.734
+53. Current log-likelihood: -29613.721
+54. Current log-likelihood: -29613.709
+55. Current log-likelihood: -29613.698
+56. Current log-likelihood: -29613.687
+57. Current log-likelihood: -29613.677
+58. Current log-likelihood: -29613.667
+59. Current log-likelihood: -29613.657
+Optimal log-likelihood: -29613.642
+Rate parameters:  A-C: 0.67902  A-G: 2.11511  A-T: 1.44556  C-G: 0.32889  C-T: 4.01277  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.241  G: 0.260  T: 0.270
+Proportion of invariable sites: 0.202
+Site proportion and rates:  (0.147,0.105) (0.195,0.537) (0.152,1.064) (0.258,2.024) (0.046,4.231)
+Parameters optimization took 59 rounds (12.541 sec)
+BEST SCORE FOUND : -29613.642
+Creating bootstrap support values...
+Split supports printed to NEXUS file data/helenieae.fasta.splits.nex
+Total tree length: 13.377
+
+Total number of iterations: 324
+CPU time used for tree search: 247.494 sec (0h:4m:7s)
+Wall-clock time used for tree search: 251.304 sec (0h:4m:11s)
+Total CPU time used: 516.501 sec (0h:8m:36s)
+Total wall-clock time used: 521.104 sec (0h:8m:41s)
+
+Computing bootstrap consensus tree...
+Reading input file data/helenieae.fasta.splits.nex...
+160 taxa and 887 splits.
+Consensus tree written to data/helenieae.fasta.contree
+Reading input trees file data/helenieae.fasta.contree
+Log-likelihood of consensus tree: -29613.644
+
+Analysis results written to: 
+  IQ-TREE report:                data/helenieae.fasta.iqtree
+  Maximum-likelihood tree:       data/helenieae.fasta.treefile
+  Likelihood distances:          data/helenieae.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          data/helenieae.fasta.splits.nex
+  Consensus tree:                data/helenieae.fasta.contree
+  Screen log file:               data/helenieae.fasta.log
+
+Date and Time: Fri Jun 21 15:18:51 2024
